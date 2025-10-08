@@ -54,7 +54,7 @@ local function startTimer(label, toggleButton)
             task.wait(1)
             seconds += 1
             label.Text = "" .. formatTime(seconds)
-            if seconds >= 165 then
+            if seconds >= 175 then
                 autoFarmEnabled = false
                 toggleButton.Text = "OFF"
                 for i = 5, 1, -1 do
